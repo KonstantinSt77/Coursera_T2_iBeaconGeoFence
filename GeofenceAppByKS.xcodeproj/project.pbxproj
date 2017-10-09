@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B46094B1F8B953100B70A6E /* myTrace.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8B46094A1F8B953100B70A6E /* myTrace.gpx */; };
 		8B4719EC1F87AA9400A9D173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4719EB1F87AA9400A9D173 /* AppDelegate.m */; };
 		8B4719EF1F87AA9400A9D173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4719EE1F87AA9400A9D173 /* ViewController.m */; };
 		8B4719F21F87AA9400A9D173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4719F01F87AA9400A9D173 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		8B4719FA1F87AA9400A9D173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4719F91F87AA9400A9D173 /* main.m */; };
 		8B471A041F87AA9400A9D173 /* GeofenceAppByKSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B471A031F87AA9400A9D173 /* GeofenceAppByKSTests.m */; };
 		8B471A0F1F87AA9400A9D173 /* GeofenceAppByKSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B471A0E1F87AA9400A9D173 /* GeofenceAppByKSUITests.m */; };
-		8BE423261F89624500573E0D /* myTrace.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 8BE423251F89624500573E0D /* myTrace.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B46094A1F8B953100B70A6E /* myTrace.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = myTrace.gpx; path = GeofenceAppByKS/myTrace.gpx; sourceTree = "<group>"; };
 		8B4719E71F87AA9400A9D173 /* GeofenceAppByKS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofenceAppByKS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4719EA1F87AA9400A9D173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B4719EB1F87AA9400A9D173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		8B471A0A1F87AA9400A9D173 /* GeofenceAppByKSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofenceAppByKSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B471A0E1F87AA9400A9D173 /* GeofenceAppByKSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeofenceAppByKSUITests.m; sourceTree = "<group>"; };
 		8B471A101F87AA9400A9D173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BE423251F89624500573E0D /* myTrace.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = myTrace.gpx; path = ../../myTrace.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		8B4719DE1F87AA9400A9D173 = {
 			isa = PBXGroup;
 			children = (
-				8BE423251F89624500573E0D /* myTrace.gpx */,
+				8B46094A1F8B953100B70A6E /* myTrace.gpx */,
 				8B4719E91F87AA9400A9D173 /* GeofenceAppByKS */,
 				8B471A021F87AA9400A9D173 /* GeofenceAppByKSTests */,
 				8B471A0D1F87AA9400A9D173 /* GeofenceAppByKSUITests */,
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4719F71F87AA9400A9D173 /* LaunchScreen.storyboard in Resources */,
-				8BE423261F89624500573E0D /* myTrace.gpx in Resources */,
+				8B46094B1F8B953100B70A6E /* myTrace.gpx in Resources */,
 				8B4719F41F87AA9400A9D173 /* Assets.xcassets in Resources */,
 				8B4719F21F87AA9400A9D173 /* Main.storyboard in Resources */,
 			);
